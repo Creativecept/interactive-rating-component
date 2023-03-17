@@ -1,0 +1,142 @@
+/* tags selectors */
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0 10px 0;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    margin: 50px 0 0px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+    margin: 10px 0 30px;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 1.5rem;
+    border-style: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 120px;
+    margin: 40px 0 5px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+/* rating class selectors */
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    margin: 20% 37%;
+    padding: 2% 2%;
+}
+
+.content {
+    width: 98%;
+}
+
+.circle {
+    background-color: hsl(221, 15%, 24%);
+    border-radius:50%;
+    padding: 5px 5px;
+    margin: auto;
+    width: 35px;
+}
+
+.num-circle {
+    background-color: hsl(221, 15%, 24%);
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    /* display: inline; */
+    padding: 15px 20px;
+    margin: 50px 3px 30px 3px;
+}
+
+.num-circle:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+
+/* thank class selectors */
+
+.thank-you-container {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    margin: 20% 37%;
+    padding: 2% 2%;
+    text-align: center;
+}
+
+.inner-container {
+    background-color: hsl(221, 15%, 24%);
+    border-radius: 1rem;
+    color: hsl(25, 97%, 53%);
+    font-size: 0.9rem;
+    margin: 10% 10%;
+    padding: 3px 1px;
+}
+
+.appreciation {
+    font-size: 0.8rem;
+    width: 98%;
+}
+
+.maq {
+    border: hsl(0, 0%, 100%) 2px solid;
+    color: hsl(0, 0%, 100%);
+}
+
+@media(max-width:500px){
+    h2 {
+        font-size: 30px;
+    }
+
+    body {
+        justify-items: center;
+        align-items: center;
+    }
+
+    button {
+    padding: 10px 100px;
+    margin: 40px 0 5px;
+}
+
+    .container {
+        
+        padding: 5% 5%;
+        width: 70%;
+        margin: 40px;
+        margin-bottom: 300px;
+    }
+
+    .num-circle {
+        margin: 50px 2px 30px 2px;
+        padding: 10px 15px;
+    }
+    
+
+    .thank-you-container {
+        padding: 5% 5%;
+        margin: 40px;
+        width: 70%;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(25, 97%, 53%); }
